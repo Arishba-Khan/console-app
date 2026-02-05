@@ -2,7 +2,7 @@
 name = "todo-console"
 version = "0.1.0"
 description = "A CLI-based in-memory task manager"
-authors = ["Developer <developer@example.com>"]
+authors = [{name = "Developer", email = "developer@example.com"}]
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.13"

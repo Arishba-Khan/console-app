@@ -11,7 +11,7 @@ functionalities.
 
 from typing import List, Optional
 from datetime import date
-from src.models.task import Task
+from models.task import Task
 
 
 class TaskService:

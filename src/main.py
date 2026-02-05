@@ -5,8 +5,8 @@ This module provides the main function that initializes and runs
 the application.
 """
 
-from src.services.task_service import TaskService
-from src.cli.todo_cli import TodoCLI
+from services.task_service import TaskService
+from cli.todo_cli import TodoCLI
 
 
 def main():

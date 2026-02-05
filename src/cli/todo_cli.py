@@ -10,10 +10,10 @@ formatted output.
 """
 
 from typing import List
-from src.services.task_service import TaskService
-from src.models.task import Task
-from src.utils.display_utils import display_tasks, display_task
-from src.utils.error_handlers import validate_task_id, validate_date_format, handle_error, format_error_message
+from services.task_service import TaskService
+from models.task import Task
+from utils.display_utils import display_tasks, display_task
+from utils.error_handlers import validate_task_id, validate_date_format, handle_error, format_error_message
 
 
 class TodoCLI:

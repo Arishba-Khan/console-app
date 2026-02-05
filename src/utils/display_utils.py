@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.table import Table
 from rich.text import Text
 from datetime import date
-from src.models.task import Task
+from models.task import Task
 
 
 console = Console()
